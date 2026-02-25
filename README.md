@@ -25,10 +25,10 @@ You can use this control flow function in Rust also to apply a change of variabl
 ## Plan
 A possible breakdown of the task is the follwing:
 
-1. Create two Rust function for the two integrands and another one for choosing the representation.
+1. Create two Rust functions for the two integrands, and another one for choosing the representation.
 2. Integrate the function above numerically using a integration algorithm from `scipy` . 
 3. Perform a benchmark study of the two implementations.
-   - How long do they take? How heavy is it in memory?
+   - How long do they take? How heavy each one of them is in memory?
    - How does this depend on the integration routine parameters, such as the relative tolerance, the absolute tolerance, the number of subdivisions, etc.
    - How does this depend on the targeted accuracy? Compare to known analytical results (give references!). Compare to the implementation of [`scipy.special.beta`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.beta.html#scipy.special.beta)
    - In the realistic physics case $\alpha$ is a complex number, how does the implementations deal with this case?
