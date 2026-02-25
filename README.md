@@ -48,6 +48,6 @@ Clone this repository into a private repository and add both Juan and Felix to i
 
 Please send us an email, when you are done.
 
-**Deadline: Thursday, March, 12 2026 14:00 UTC**
+**Deadline: Thursday, March, 12 2026 00:00 UTC**
 
 If there is something unclear, don't hesitate to contact us.
